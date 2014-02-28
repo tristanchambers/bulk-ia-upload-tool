@@ -51,6 +51,15 @@ for row in cur:
 				title=row['item_title'],
 				description=row['item_description'],
 				author=row['item_author'],
+#				title_yivo = row['title_yivo'],
+#				author_last = row['author_last'],
+#				author_first = row['author_first'],
+#				reader_last = row['reader_last'],
+#				reader_first = row['reader_first'],
+#				author_last_eng = row['author_last_eng'],
+#				author_first_eng = row['author_first_eng'],
+#				reader_last_eng = row['reader_last_eng'],
+#				reader_first_eng = row['reader_first_eng']
 			)
 		)
 		print row['parent_item_id'], '|',result[0].status_code, '|', row['ia_identifier'], '|', row['path']
